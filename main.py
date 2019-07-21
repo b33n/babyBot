@@ -23,4 +23,4 @@ async def on_message(message):
     elif author not in creds.usersCry:
         print('No')
 
-client.run(creds.tokenID)
+client.run(tokenVal)
